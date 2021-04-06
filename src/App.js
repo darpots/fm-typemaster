@@ -1,10 +1,22 @@
+import styled from 'styled-components'
+import { GlobalStyle } from './globalStyles'
+import Header from './components/Header'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="App">
-<h1>Connected...</h1>
-    </div>
-  );
+    <Wrapper>
+      <GlobalStyle />
+      <Header />
+      <Hero />
+    </Wrapper>
+  )
 }
 
-export default App;
+const Wrapper = styled.div`
+  max-width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
+`
+
+export default App
