@@ -4,7 +4,7 @@ import { ButtonOrange } from './Button'
 import smallImg from '../images/mobile/image-keyboard.jpg'
 import medImg from '../images/tablet/image-keyboard.jpg'
 import lrgImg from '../images/desktop/image-keyboard.jpg'
-import { GreyBlock } from './GreyBlock'
+import { GreyBlockTopRight } from './GreyBlock'
 
 export default function Hero() {
   return (
@@ -29,20 +29,23 @@ export default function Hero() {
           </picture>
         </HeroImage>
       </FlexContainer>
-      <GreyBlock />
+      <GreyBlockTopRight />
     </Container>
   )
 }
 
 const FlexContainer = styled.div`
-  @media (min-width: 768px) {
+  margin-bottom: 1.5rem;
+  @media (min-width: 48rem) {
     display: flex;
     margin-right: -1.5rem;
+    margin-bottom: 2.5rem;
     align-items: center;
     gap: 4rem;
   }
-  @media (min-width: 1440px) {
+  @media (min-width: 90rem) {
     margin-right: 0;
+    margin-bottom: 1.875rem;
   }
 `
 
@@ -58,12 +61,11 @@ const HeroText = styled.section`
 `
 
 const HeroImage = styled.div`
-  margin-right: -1.5rem;
-  margin-bottom: 1.5rem;
+  margin-right: -3.5rem;
   @media (min-width: 48rem) {
     margin-right: -10.5rem;
   }
-  @media (min-width: 1440px) {
+  @media (min-width: 90rem) {
     margin-right: 0;
   }
 `

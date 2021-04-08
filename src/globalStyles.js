@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Barlow', sans-serif;
+    background: #f2f2f2;
     
     img {
       max-width: 100%;
