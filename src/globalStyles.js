@@ -80,5 +80,9 @@ export const GlobalStyle = createGlobalStyle`
       line-height: 1.625rem;
       margin-bottom: 2.5rem;
     }
+    
+    span {
+      font-weight: 700;
+    }
   }
 `

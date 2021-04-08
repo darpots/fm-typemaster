@@ -39,6 +39,7 @@ const Feature = styled.div`
     }
     @media (min-width: 90rem) {
       flex-basis: 23%;
+      margin-bottom: 9.375rem;
     }
   }
 `

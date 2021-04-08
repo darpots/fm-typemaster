@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Main from './components/Main'
 import Features from './components/Features'
+import Copyright from './components/Copyright'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Main />
       <Features />
+      <Copyright />
     </Wrapper>
   )
 }
