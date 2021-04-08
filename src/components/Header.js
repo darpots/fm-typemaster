@@ -25,4 +25,7 @@ const Flex = styled.div`
   @media (min-width: 90rem) {
     margin: 3.4375rem 0 5.1875rem;
   }
+  img {
+    border-radius: 0;
+  }
 `

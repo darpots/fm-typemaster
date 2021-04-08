@@ -3,6 +3,7 @@ import { GlobalStyle } from './globalStyles'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Main from './components/Main'
+import Features from './components/Features'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Main />
+      <Features />
     </Wrapper>
   )
 }
